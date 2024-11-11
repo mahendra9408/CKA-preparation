@@ -1,14 +1,20 @@
 **1. Cluster Architecture, Installation, and Configuration (25%)**
 
-This domain focuses on setting up and managing a Kubernetes cluster.
 
-   ** Key Topics:**
+   **Key Topics:**
+
         **Kubernetes Architecture:** Master and worker node components, control plane components (API Server, Scheduler, Controller Manager), etcd, and kubelet.
+        
         **etcd Backup and Restore:** Set up etcd, perform backups, and restore etcd from snapshots.
+
         **Kubeadm Installation:** Set up clusters with kubeadm, troubleshoot initialization errors.
+
         **Networking:** Configure pod networking (e.g., Flannel, Calico), understand CNI plugins, DNS, and cluster IP networking.
+
         **Certificates:** Manage certificates using kubeadm, understand certificate authority (CA) and key pairs.
+
         **Security and Authentication:** Implement Role-Based Access Control (RBAC), configure Service Accounts, manage role bindings, and kubeconfig files.
+
         **Node Operations:** Join nodes to clusters, remove nodes, and configure taints/tolerations for node placement.
 
     **Preparation Steps:**
