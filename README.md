@@ -1,28 +1,28 @@
-1. Cluster Architecture, Installation, and Configuration (25%)
+**1. Cluster Architecture, Installation, and Configuration (25%)**
 
 This domain focuses on setting up and managing a Kubernetes cluster.
 
-    Key Topics:
-        Kubernetes Architecture: Master and worker node components, control plane components (API Server, Scheduler, Controller Manager), etcd, and kubelet.
-        etcd Backup and Restore: Set up etcd, perform backups, and restore etcd from snapshots.
-        Kubeadm Installation: Set up clusters with kubeadm, troubleshoot initialization errors.
-        Networking: Configure pod networking (e.g., Flannel, Calico), understand CNI plugins, DNS, and cluster IP networking.
-        Certificates: Manage certificates using kubeadm, understand certificate authority (CA) and key pairs.
-        Security and Authentication: Implement Role-Based Access Control (RBAC), configure Service Accounts, manage role bindings, and kubeconfig files.
-        Node Operations: Join nodes to clusters, remove nodes, and configure taints/tolerations for node placement.
+   ** Key Topics:**
+        **Kubernetes Architecture:** Master and worker node components, control plane components (API Server, Scheduler, Controller Manager), etcd, and kubelet.
+        **etcd Backup and Restore:** Set up etcd, perform backups, and restore etcd from snapshots.
+        **Kubeadm Installation:** Set up clusters with kubeadm, troubleshoot initialization errors.
+        **Networking:** Configure pod networking (e.g., Flannel, Calico), understand CNI plugins, DNS, and cluster IP networking.
+        **Certificates:** Manage certificates using kubeadm, understand certificate authority (CA) and key pairs.
+        **Security and Authentication:** Implement Role-Based Access Control (RBAC), configure Service Accounts, manage role bindings, and kubeconfig files.
+        **Node Operations:** Join nodes to clusters, remove nodes, and configure taints/tolerations for node placement.
 
-    Preparation Steps:
+    **Preparation Steps:**
         Set up clusters on virtual environments using Minikube, Kind, or kubeadm on cloud VMs to get hands-on experience with different configurations.
         Practice etcd snapshots and restores and become familiar with etcdctl commands.
         Use kubeadm to create a cluster from scratch, focusing on managing certificates and troubleshooting network plugin setup.
         Apply RBAC policies on clusters to control access and test with different Service Accounts and role configurations.
 
-2. Workloads and Scheduling (15%)
+**2. Workloads and Scheduling (15%)**
 
 This section involves deploying applications and controlling their scheduling and behavior.
 
     Key Topics:
-        Pod Lifecycle: Understand different Pod phases, restart policies, and readiness and liveness probes.
+        **Pod Lifecycle:** Understand different Pod phases, restart policies, and readiness and liveness probes.
         Deployments, ReplicaSets, and DaemonSets: Create and manage workloads for replication and fault tolerance.
         Jobs and CronJobs: Configure batch jobs, schedule recurring jobs, and set up job cleanup policies.
         Manual Scheduling: Use node selectors, affinity/anti-affinity rules, and tolerations to influence pod placement.
